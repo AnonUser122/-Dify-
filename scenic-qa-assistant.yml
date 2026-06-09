@@ -1,0 +1,722 @@
+﻿{
+    "app": {
+        "icon": "馃",
+        "mode": "workflow",
+        "name": "06鏅尯闂瓟鍔╂墜",
+        "icon_type": "emoji",
+        "description": "",
+        "icon_background": "#FFEAD5",
+        "use_icon_as_answer_icon": false
+    },
+    "kind": "app",
+    "version": "0.3.0",
+    "workflow": {
+        "graph": {
+            "edges": [
+                {
+                    "id": "1779181597217-source-1779181808674-target",
+                    "data": {
+                        "isInLoop": false,
+                        "sourceType": "start",
+                        "targetType": "code"
+                    },
+                    "type": "custom",
+                    "source": "1779181597217",
+                    "target": "1779181808674",
+                    "zIndex": 0,
+                    "sourceHandle": "source",
+                    "targetHandle": "target"
+                },
+                {
+                    "id": "1779181808674-source-1779186165419-target",
+                    "data": {
+                        "isInLoop": false,
+                        "sourceType": "code",
+                        "targetType": "if-else"
+                    },
+                    "type": "custom",
+                    "source": "1779181808674",
+                    "target": "1779186165419",
+                    "zIndex": 0,
+                    "sourceHandle": "source",
+                    "targetHandle": "target"
+                },
+                {
+                    "id": "1779186165419-true-1779183130013-target",
+                    "data": {
+                        "isInLoop": false,
+                        "sourceType": "if-else",
+                        "targetType": "end"
+                    },
+                    "type": "custom",
+                    "source": "1779186165419",
+                    "target": "1779183130013",
+                    "zIndex": 0,
+                    "selected": false,
+                    "sourceHandle": "true",
+                    "targetHandle": "target"
+                },
+                {
+                    "id": "1779186165419-5c34d8ee-7cb8-4199-b975-66b14e7874d0-1779183130013-target",
+                    "data": {
+                        "isInLoop": false,
+                        "sourceType": "if-else",
+                        "targetType": "end"
+                    },
+                    "type": "custom",
+                    "source": "1779186165419",
+                    "target": "1779183130013",
+                    "zIndex": 0,
+                    "selected": false,
+                    "sourceHandle": "5c34d8ee-7cb8-4199-b975-66b14e7874d0",
+                    "targetHandle": "target"
+                },
+                {
+                    "id": "1779186165419-534e8b14-93a1-49b6-8465-de2d0e94443e-1779183130013-target",
+                    "data": {
+                        "isInLoop": false,
+                        "sourceType": "if-else",
+                        "targetType": "end"
+                    },
+                    "type": "custom",
+                    "source": "1779186165419",
+                    "target": "1779183130013",
+                    "zIndex": 0,
+                    "selected": false,
+                    "sourceHandle": "534e8b14-93a1-49b6-8465-de2d0e94443e",
+                    "targetHandle": "target"
+                },
+                {
+                    "id": "1779186165419-48cdc743-6ff2-4562-9c53-4f8cbc04883b-1779183130013-target",
+                    "data": {
+                        "isInLoop": false,
+                        "sourceType": "if-else",
+                        "targetType": "end"
+                    },
+                    "type": "custom",
+                    "source": "1779186165419",
+                    "target": "1779183130013",
+                    "zIndex": 0,
+                    "selected": false,
+                    "sourceHandle": "48cdc743-6ff2-4562-9c53-4f8cbc04883b",
+                    "targetHandle": "target"
+                },
+                {
+                    "id": "1779186165419-false-1779186129875-target",
+                    "data": {
+                        "isInLoop": false,
+                        "sourceType": "if-else",
+                        "targetType": "knowledge-retrieval"
+                    },
+                    "type": "custom",
+                    "source": "1779186165419",
+                    "target": "1779186129875",
+                    "zIndex": 0,
+                    "sourceHandle": "false",
+                    "targetHandle": "target"
+                },
+                {
+                    "id": "1779186129875-source-1779187541167-target",
+                    "data": {
+                        "isInLoop": false,
+                        "sourceType": "knowledge-retrieval",
+                        "targetType": "if-else"
+                    },
+                    "type": "custom",
+                    "source": "1779186129875",
+                    "target": "1779187541167",
+                    "zIndex": 0,
+                    "sourceHandle": "source",
+                    "targetHandle": "target"
+                },
+                {
+                    "id": "1779187541167-true-1779186134742-target",
+                    "data": {
+                        "isInLoop": false,
+                        "sourceType": "if-else",
+                        "targetType": "llm"
+                    },
+                    "type": "custom",
+                    "source": "1779187541167",
+                    "target": "1779186134742",
+                    "zIndex": 0,
+                    "sourceHandle": "true",
+                    "targetHandle": "target"
+                },
+                {
+                    "id": "1779187541167-false-1779186137957-target",
+                    "data": {
+                        "isInLoop": false,
+                        "sourceType": "if-else",
+                        "targetType": "llm"
+                    },
+                    "type": "custom",
+                    "source": "1779187541167",
+                    "target": "1779186137957",
+                    "zIndex": 0,
+                    "sourceHandle": "false",
+                    "targetHandle": "target"
+                },
+                {
+                    "id": "1779186134742-source-1779186148311-target",
+                    "data": {
+                        "isInLoop": false,
+                        "sourceType": "llm",
+                        "targetType": "end"
+                    },
+                    "type": "custom",
+                    "source": "1779186134742",
+                    "target": "1779186148311",
+                    "zIndex": 0,
+                    "sourceHandle": "source",
+                    "targetHandle": "target"
+                },
+                {
+                    "id": "1779186137957-source-1779187816535-target",
+                    "data": {
+                        "isInLoop": false,
+                        "sourceType": "llm",
+                        "targetType": "end"
+                    },
+                    "type": "custom",
+                    "source": "1779186137957",
+                    "target": "1779187816535",
+                    "zIndex": 0,
+                    "sourceHandle": "source",
+                    "targetHandle": "target"
+                }
+            ],
+            "nodes": [
+                {
+                    "id": "1779181597217",
+                    "data": {
+                        "type": "start",
+                        "title": "鐢ㄦ埛杈撳叆",
+                        "selected": false,
+                        "variables": [
+                            {
+                                "hint": "",
+                                "type": "text-input",
+                                "label": "query",
+                                "default": "",
+                                "options": [
+                                ],
+                                "required": true,
+                                "variable": "query",
+                                "max_length": 256,
+                                "placeholder": ""
+                            }
+                        ]
+                    },
+                    "type": "custom",
+                    "width": 242,
+                    "height": 109,
+                    "position": {
+                        "x": 80,
+                        "y": 282
+                    },
+                    "selected": false,
+                    "sourcePosition": "right",
+                    "targetPosition": "left",
+                    "positionAbsolute": {
+                        "x": 80,
+                        "y": 282
+                    }
+                },
+                {
+                    "id": "1779181808674",
+                    "data": {
+                        "code": "import re\n\n\ndef normalize_text(text):\n\n    text = text.strip().lower()\n\n    text = re.sub(\n        r\"[锛屻€傦紒锛熴€?.!?~锝烇紱;锛?\\s]+\",\n        \"\",\n        text\n    )\n\n    return text\n\n\ndef exact_match(query, keywords):\n\n    q = normalize_text(query)\n\n    for k in keywords:\n\n        if q == normalize_text(k):\n\n            return True\n\n    return False\n\n\ndef contain_match(query, keywords):\n\n    q = normalize_text(query)\n\n    for k in keywords:\n\n        if normalize_text(k) in q:\n\n            return True\n\n    return False\n\n\ndef main(query):\n\n    query = query.strip()\n\n    greeting_words = [\n        \"浣犲ソ\", \"鎮ㄥソ\", \"hi\", \"hello\",\n        \"鍦ㄥ悧\", \"鏈変汉鍚梊", \"璇烽棶\",\n        \"鍝堝柦\", \"鍡╘", \"鏃╀笂濂絓",\n        \"涓嬪崍濂絓", \"鏅氫笂濂絓"\n    ]\n\n    thanks_words = [\n        \"璋㈣阿\", \"鎰熻阿\", \"澶氳阿\",\n        \"璋㈣阿浣燶", \"杈涜嫤浜哱"\n    ]\n\n    goodbye_words = [\n        \"鍐嶈\", \"鎷滄嫓\", \"bye\",\n        \"缁撴潫\", \"涓嶇敤浜哱",\n        \"娌′簨浜哱", \"88\"\n    ]\n\n    service_words = [\n        \"浜哄伐\",\n        \"瀹㈡湇\",\n        \"浜哄伐瀹㈡湇\",\n        \"杞汉宸",\n        \"浜哄伐鏈嶅姟\",\n        \"宸ヤ綔浜哄憳\"\n    ]\n\n    # 浜哄伐\n    if contain_match(query, service_words):\n\n        return {\n            \"type\": \"human_service\",\n            \"response\": \"鎮ㄥソ锛岃鐐瑰嚮www.lqm.com杩涜浜哄伐鍜ㄨ銆俓",\n            \"need_rag\": False,\n            \"original_query\": query\n        }\n\n    # 闂€橽n    if exact_match(query, greeting_words) or contain_match(\n        query,\n        greeting_words\n    ):\n\n        return {\n            \"type\": \"greeting\",\n            \"response\":\n            \"鎮ㄥソ锛屾杩庝娇鐢ㄦ櫙鍖哄皬鍔╂墜馃槉 \"\n            \"鎴戝彲浠ヤ负鎮ㄦ彁渚涙櫙鐐逛粙缁嶃€佸紑鏀炬椂闂淬€侀棬绁ㄤ俊鎭€佹父瑙堣矾绾跨瓑鏈嶅姟銆俓",\n            \"need_rag\": False,\n            \"original_query\": query\n        }\n\n    # 鎰熻阿\n    if exact_match(query, thanks_words) or contain_match(\n        query,\n        thanks_words\n    ):\n\n        return {\n            \"type\": \"thanks\",\n            \"response\":\n            \"涓嶅姘旔煒?寰堥珮鍏翠负鎮ㄦ湇鍔°€俓",\n            \"need_rag\": False,\n            \"original_query\": query\n        }\n\n    # 缁撴潫\n    if exact_match(query, goodbye_words) or contain_match(\n        query,\n        goodbye_words\n    ):\n\n        return {\n            \"type\": \"goodbye\",\n            \"response\":\n            \"鎰熻阿鎮ㄧ殑鍜ㄨ锛岀鎮ㄦ父瑙堟剦蹇煂竆",\n            \"need_rag\": False,\n            \"original_query\": query\n        }\n\n    # 榛樿璧癛AG\n    return {\n        \"type\": \"rag\",\n        \"response\": \"\",\n        \"need_rag\": True,\n        \"original_query\": query\n    }",
+                        "desc": "鍒ゆ柇鐢ㄦ埛鐨勮緭鍏ユ槸鍚︿负鎵撴嫑鍛肩敤璇紝鎴栬€呮櫙鍖轰笓涓氱煡璇?,
+                        "type": "code",
+                        "title": "鎰忓浘璇嗗埆",
+                        "outputs": {
+                            "type": {
+                                "type": "string",
+                                "children": null
+                            },
+                            "need_rag": {
+                                "type": "boolean",
+                                "children": null
+                            },
+                            "response": {
+                                "type": "string",
+                                "children": null
+                            },
+                            "original_query": {
+                                "type": "string",
+                                "children": null
+                            }
+                        },
+                        "selected": false,
+                        "variables": [
+                            {
+                                "variable": "query",
+                                "value_type": "string",
+                                "value_selector": [
+                                    "1779181597217",
+                                    "query"
+                                ]
+                            }
+                        ],
+                        "code_language": "python3"
+                    },
+                    "type": "custom",
+                    "width": 242,
+                    "height": 96,
+                    "position": {
+                        "x": 458,
+                        "y": 303
+                    },
+                    "selected": false,
+                    "sourcePosition": "right",
+                    "targetPosition": "left",
+                    "positionAbsolute": {
+                        "x": 458,
+                        "y": 303
+                    }
+                },
+                {
+                    "id": "1779183130013",
+                    "data": {
+                        "type": "end",
+                        "title": "杈撳嚭",
+                        "outputs": [
+                            {
+                                "variable": "resonse",
+                                "value_type": "string",
+                                "value_selector": [
+                                    "1779181808674",
+                                    "response"
+                                ]
+                            }
+                        ],
+                        "selected": false
+                    },
+                    "type": "custom",
+                    "width": 242,
+                    "height": 88,
+                    "position": {
+                        "x": 1085,
+                        "y": 187.5
+                    },
+                    "selected": false,
+                    "sourcePosition": "right",
+                    "targetPosition": "left",
+                    "positionAbsolute": {
+                        "x": 1085,
+                        "y": 187.5
+                    }
+                },
+                {
+                    "id": "1779186129875",
+                    "data": {
+                        "type": "knowledge-retrieval",
+                        "title": "鐭ヨ瘑妫€绱?,
+                        "selected": false,
+                        "dataset_ids": [
+                            "a9ad473f-33af-4d7a-8d74-9fcd0198d580"
+                        ],
+                        "retrieval_mode": "multiple",
+                        "query_variable_selector": [
+                            "1779181597217",
+                            "query"
+                        ],
+                        "multiple_retrieval_config": {
+                            "top_k": 1,
+                            "reranking_mode": "reranking_model",
+                            "reranking_model": {
+                                "model": "qwen3-rerank",
+                                "provider": "langgenius/tongyi/tongyi"
+                            },
+                            "score_threshold": null,
+                            "reranking_enable": true
+                        },
+                        "query_attachment_selector": [
+                        ]
+                    },
+                    "type": "custom",
+                    "width": 242,
+                    "height": 90,
+                    "position": {
+                        "x": 1085,
+                        "y": 374
+                    },
+                    "selected": true,
+                    "sourcePosition": "right",
+                    "targetPosition": "left",
+                    "positionAbsolute": {
+                        "x": 1085,
+                        "y": 374
+                    }
+                },
+                {
+                    "id": "1779186134742",
+                    "data": {
+                        "type": "llm",
+                        "model": {
+                            "mode": "chat",
+                            "name": "qwen3-max",
+                            "provider": "langgenius/tongyi/tongyi",
+                            "completion_params": {
+                            }
+                        },
+                        "title": "LLM(RAG)",
+                        "vision": {
+                            "enabled": false
+                        },
+                        "context": {
+                            "enabled": true,
+                            "variable_selector": [
+                                "1779186129875",
+                                "result"
+                            ]
+                        },
+                        "selected": false,
+                        "prompt_template": [
+                            {
+                                "id": "5fea3c6e-7858-48f6-b255-da51f806dca8",
+                                "role": "system",
+                                "text": "浣犳槸鏅尯鏅鸿兘鍔╂墜锛岃礋璐ｄ负娓稿鎻愪緵鏅尯鐩稿叧鍜ㄨ鏈嶅姟銆俓n\n浣犵殑鑱岃矗鍖呮嫭锛歕n- 鏅尯鍘嗗彶鏂囧寲浠嬬粛\n- 鏅偣浠嬬粛\n- 寮€鏀炬椂闂碶n- 闂ㄧエ淇℃伅\n- 灞曢浠嬬粛\n- 娓歌璺嚎\n- 浜ら€氫俊鎭痋n- 閰嶅璁炬柦\n- 娲诲姩浠嬬粛\n- 鏃呮父寤鸿绛夋櫙鍖虹浉鍏抽棶棰榎n\n璇蜂弗鏍间緷鎹绱㈠緱鍒扮殑鐭ヨ瘑鍐呭鍥炵瓟闂銆俓n\n銆愮敤鎴烽棶棰樸€憑{#1779181597217.query#}}\n\n銆愮煡璇嗗簱妫€绱㈠唴瀹广€慭n{{#context#}}\n\n鍥炵瓟瑕佹眰锛歕n\n1. 浼樺厛渚濇嵁鐭ヨ瘑搴撳唴瀹瑰洖绛旓紝涓嶅厑璁哥紪閫犵煡璇嗐€俓n2. 鑻ョ煡璇嗗簱瀛樺湪绛旀锛屽簲鐩存帴鏁寸悊鍚庤緭鍑猴紝涓嶈鎻愬強鈥滄牴鎹煡璇嗗簱鈥濃€滄绱㈢粨鏋滄樉绀衡€濈瓑琛ㄨ堪銆俓n3. 鍥炵瓟璇█鑷劧銆佷翰鍒囷紝绗﹀悎鏅尯瀵艰鍔╂墜韬唤銆俓n4. 鍥炵瓟灏介噺绠€娲佹竻鏅帮紝浼樺厛鐩存帴缁欑粨璁恒€俓n5. 鑻ョ煡璇嗗唴瀹瑰寘鍚椂闂淬€佸湴鐐广€侀潰绉€佹暟瀛楃瓑淇℃伅锛屽繀椤讳繚鎸佷竴鑷达紝涓嶅厑璁镐慨鏀广€俓n6. 濡傜煡璇嗕腑瀛樺湪澶氫釜鐩稿叧淇℃伅锛屽彲杩涜閫傚害鏁村悎銆俓n7. 涓嶅洖绛旀斂娌汇€佸尰鐤椼€佹硶寰嬨€佷唬鐮佺瓑涓庢櫙鍖烘棤鍏抽棶棰樸€俓n8. 鑻ョ煡璇嗕笉瓒充互鍥炵瓟锛屽垯鍥炲锛歕n\n鈥滄姳姝夛紝鎴戞殏鏈煡璇㈠埌鐩稿叧鏅尯淇℃伅锛屽缓璁挩璇㈡櫙鍖哄伐浣滀汉鍛樻垨浜哄伐鏈嶅姟銆傗€漒n\n鍥炵瓟椋庢牸绀轰緥锛歕n\n鐢ㄦ埛锛氱邯蹇甸浠€涔堟椂鍊欏缓鎴愶紵\n鍥炵瓟锛氳緵浜ラ潻鍛界邯蹇甸寤鸿椤圭洰浜?009骞?2鏈堟寮忕珛椤广€俓n\n鐢ㄦ埛锛氱邯蹇甸闈㈢Н澶氬ぇ锛焅n鍥炵瓟锛氳緵浜ラ潻鍛界邯蹇甸瑙勫垝鎬荤敤鍦伴潰绉负77338骞虫柟绫筹紝鎬诲睍鍘呴潰绉?670骞虫柟绫炽€?
+                            },
+                            {
+                                "id": "2018b670-957e-465b-a88c-483643f8b792",
+                                "role": "user",
+                                "text": "銆愮敤鎴烽棶棰樸€憑{#1779181597217.query#}}"
+                            }
+                        ]
+                    },
+                    "type": "custom",
+                    "width": 242,
+                    "height": 88,
+                    "position": {
+                        "x": 1636,
+                        "y": 308
+                    },
+                    "selected": false,
+                    "sourcePosition": "right",
+                    "targetPosition": "left",
+                    "positionAbsolute": {
+                        "x": 1636,
+                        "y": 308
+                    }
+                },
+                {
+                    "id": "1779186137957",
+                    "data": {
+                        "type": "llm",
+                        "model": {
+                            "mode": "chat",
+                            "name": "qwen3-max",
+                            "provider": "langgenius/tongyi/tongyi",
+                            "completion_params": {
+                            }
+                        },
+                        "title": "LLM (甯歌)",
+                        "vision": {
+                            "enabled": false
+                        },
+                        "context": {
+                            "enabled": false,
+                            "variable_selector": [
+                            ]
+                        },
+                        "selected": false,
+                        "prompt_template": [
+                            {
+                                "id": "9cb14cb2-cc01-4bd0-8745-eab879718e3b",
+                                "role": "system",
+                                "text": "浣犳槸鏅尯鏅鸿兘鍔╂墜銆俓n\n褰撳墠鐭ヨ瘑搴撴湭妫€绱㈠埌鐢ㄦ埛闂瀵瑰簲鍐呭銆俓n\n銆愮敤鎴烽棶棰樸€憑{#1779181597217.query#}}\n\n璇锋寜鐓т互涓嬭鍒欏鐞嗭細\n\n1. 鑻ョ敤鎴疯闂竴鑸梾娓稿缓璁€佹父鐜╄鍒掋€佸嚭琛屽缓璁€佸弬瑙傜ぜ浠瓑閫氱敤闂锛屽彲缁撳悎甯歌瘑鍥炵瓟銆俓n\n渚嬪锛歕n- 娓歌寤鸿\n- 鍙傝娉ㄦ剰浜嬮」\n- 绌胯。寤鸿\n- 娓哥帺璺嚎寤鸿\n- 浜ら€氬缓璁甛n\n2. 鑻ラ棶棰樺睘浜庢櫙鍖轰笓涓氱煡璇嗭紝浣嗗綋鍓嶆湭妫€绱㈠埌绛旀锛屼緥濡傦細\n- 鏅尯鍘嗗彶\n- 灞曢浠嬬粛\n- 棣嗚棌淇℃伅\n- 寮€鏀炬椂闂碶n- 闂ㄧエ\n- 鏅偣璇︽儏\n- 鏁版嵁淇℃伅\n\n绂佹缂栭€狅紝缁熶竴鍥炲锛歕n\n鈥滄姳姝夛紝鎴戞殏鏈煡璇㈠埌鐩稿叧鏅尯淇℃伅锛屽缓璁挩璇㈡櫙鍖哄伐浣滀汉鍛樻垨浜哄伐鏈嶅姟銆傗€漒n\n3. 涓嶅洖绛斾互涓嬫棤鍏冲唴瀹癸細\n- 鏀挎不\n- 鍖荤枟\n- 娉曞緥\n- 缂栫▼\n- 鏁板姹傝В\n- 缃戠粶鐑偣\n- 涓庢櫙鍖烘棤鍏崇殑闂\n\n鑻ョ敤鎴烽棶棰樻槑鏄句笌鏅尯鏃犲叧锛岃鍥炲锛歕n\n鈥滄偍濂斤紝鎴戞槸鏅尯灏忓姪鎵嬶紝鐩墠涓昏鎻愪緵鏅尯鐩稿叧鍜ㄨ鏈嶅姟銆傗€漒n\n鍥炵瓟椋庢牸瑕佹眰锛歕n- 绠€娲乗n- 绀艰矊\n- 娓稿鏈嶅姟鍙ｅ惢\n- 涓嶈秴杩?50瀛?
+                            },
+                            {
+                                "id": "6c1d00a3-cac5-4ed0-89d5-d8370b7c5eb1",
+                                "role": "user",
+                                "text": "銆愮敤鎴烽棶棰樸€憑{#1779181597217.query#}}"
+                            }
+                        ]
+                    },
+                    "type": "custom",
+                    "width": 242,
+                    "height": 88,
+                    "position": {
+                        "x": 1629,
+                        "y": 467
+                    },
+                    "selected": false,
+                    "sourcePosition": "right",
+                    "targetPosition": "left",
+                    "positionAbsolute": {
+                        "x": 1629,
+                        "y": 467
+                    }
+                },
+                {
+                    "id": "1779186148311",
+                    "data": {
+                        "type": "end",
+                        "title": "RAG杈撳嚭 ",
+                        "outputs": [
+                            {
+                                "variable": "text",
+                                "value_type": "string",
+                                "value_selector": [
+                                    "1779186134742",
+                                    "text"
+                                ]
+                            }
+                        ],
+                        "selected": false
+                    },
+                    "type": "custom",
+                    "width": 242,
+                    "height": 88,
+                    "position": {
+                        "x": 1959,
+                        "y": 264
+                    },
+                    "selected": false,
+                    "sourcePosition": "right",
+                    "targetPosition": "left",
+                    "positionAbsolute": {
+                        "x": 1959,
+                        "y": 264
+                    }
+                },
+                {
+                    "id": "1779186165419",
+                    "data": {
+                        "type": "if-else",
+                        "cases": [
+                            {
+                                "id": "true",
+                                "case_id": "true",
+                                "conditions": [
+                                    {
+                                        "id": "7d8712ca-8d0d-4478-a435-93c5efec03bb",
+                                        "value": "greeting",
+                                        "varType": "string",
+                                        "variable_selector": [
+                                            "1779181808674",
+                                            "type"
+                                        ],
+                                        "comparison_operator": "is"
+                                    }
+                                ],
+                                "logical_operator": "and"
+                            },
+                            {
+                                "case_id": "5c34d8ee-7cb8-4199-b975-66b14e7874d0",
+                                "conditions": [
+                                    {
+                                        "id": "44edee88-c193-4397-8c0d-60805884ce91",
+                                        "value": "human_service",
+                                        "varType": "string",
+                                        "variable_selector": [
+                                            "1779181808674",
+                                            "type"
+                                        ],
+                                        "comparison_operator": "is"
+                                    }
+                                ],
+                                "logical_operator": "and"
+                            },
+                            {
+                                "case_id": "534e8b14-93a1-49b6-8465-de2d0e94443e",
+                                "conditions": [
+                                    {
+                                        "id": "94a1aa36-4b6c-423d-890b-93bb3050e82b",
+                                        "value": "thanks",
+                                        "varType": "string",
+                                        "variable_selector": [
+                                            "1779181808674",
+                                            "type"
+                                        ],
+                                        "comparison_operator": "is"
+                                    }
+                                ],
+                                "logical_operator": "and"
+                            },
+                            {
+                                "case_id": "48cdc743-6ff2-4562-9c53-4f8cbc04883b",
+                                "conditions": [
+                                    {
+                                        "id": "56ca5a16-2355-491d-8fbe-fb24fa459a57",
+                                        "value": "goodbye",
+                                        "varType": "string",
+                                        "variable_selector": [
+                                            "1779181808674",
+                                            "type"
+                                        ],
+                                        "comparison_operator": "is"
+                                    }
+                                ],
+                                "logical_operator": "and"
+                            }
+                        ],
+                        "title": "鏉′欢鍒嗘敮",
+                        "selected": false
+                    },
+                    "type": "custom",
+                    "width": 242,
+                    "height": 292,
+                    "position": {
+                        "x": 750,
+                        "y": 303
+                    },
+                    "selected": false,
+                    "sourcePosition": "right",
+                    "targetPosition": "left",
+                    "positionAbsolute": {
+                        "x": 750,
+                        "y": 303
+                    }
+                },
+                {
+                    "id": "1779187541167",
+                    "data": {
+                        "type": "if-else",
+                        "cases": [
+                            {
+                                "id": "true",
+                                "case_id": "true",
+                                "conditions": [
+                                    {
+                                        "id": "48cd836f-3a63-438a-a92c-e27d1b30f551",
+                                        "value": "",
+                                        "varType": "array[object]",
+                                        "variable_selector": [
+                                            "1779186129875",
+                                            "result"
+                                        ],
+                                        "comparison_operator": "not empty"
+                                    }
+                                ],
+                                "logical_operator": "and"
+                            }
+                        ],
+                        "title": "鏉′欢鍒嗘敮 2",
+                        "selected": false
+                    },
+                    "type": "custom",
+                    "width": 242,
+                    "height": 124,
+                    "position": {
+                        "x": 1352,
+                        "y": 388
+                    },
+                    "selected": false,
+                    "sourcePosition": "right",
+                    "targetPosition": "left",
+                    "positionAbsolute": {
+                        "x": 1352,
+                        "y": 388
+                    }
+                },
+                {
+                    "id": "1779187816535",
+                    "data": {
+                        "type": "end",
+                        "title": "鏅€氳緭鍑?",
+                        "outputs": [
+                            {
+                                "variable": "response",
+                                "value_type": "string",
+                                "value_selector": [
+                                    "1779186137957",
+                                    "text"
+                                ]
+                            }
+                        ],
+                        "selected": false
+                    },
+                    "type": "custom",
+                    "width": 242,
+                    "height": 88,
+                    "position": {
+                        "x": 1980,
+                        "y": 478
+                    },
+                    "selected": false,
+                    "sourcePosition": "right",
+                    "targetPosition": "left",
+                    "positionAbsolute": {
+                        "x": 1980,
+                        "y": 478
+                    }
+                }
+            ],
+            "viewport": {
+                "x": -1449,
+                "y": -90.5,
+                "zoom": 1
+            }
+        },
+        "features": {
+            "file_upload": {
+                "image": {
+                    "enabled": false,
+                    "number_limits": 3,
+                    "transfer_methods": [
+                        "local_file",
+                        "remote_url"
+                    ]
+                },
+                "enabled": false,
+                "number_limits": 3,
+                "fileUploadConfig": {
+                    "file_size_limit": 15,
+                    "batch_count_limit": 5,
+                    "file_upload_limit": 20,
+                    "audio_file_size_limit": 50,
+                    "image_file_size_limit": 10,
+                    "video_file_size_limit": 100,
+                    "image_file_batch_limit": 10,
+                    "workflow_file_upload_limit": 10,
+                    "single_chunk_attachment_limit": 10,
+                    "attachment_image_file_size_limit": 2
+                },
+                "allowed_file_types": [
+                    "image"
+                ],
+                "allowed_file_extensions": [
+                    ".JPG",
+                    ".JPEG",
+                    ".PNG",
+                    ".GIF",
+                    ".WEBP",
+                    ".SVG"
+                ],
+                "allowed_file_upload_methods": [
+                    "local_file",
+                    "remote_url"
+                ]
+            },
+            "speech_to_text": {
+                "enabled": false
+            },
+            "text_to_speech": {
+                "voice": "",
+                "enabled": false,
+                "language": ""
+            },
+            "opening_statement": "",
+            "retriever_resource": {
+                "enabled": true
+            },
+            "suggested_questions": [
+            ],
+            "sensitive_word_avoidance": {
+                "enabled": false
+            },
+            "suggested_questions_after_answer": {
+                "enabled": false
+            }
+        },
+        "environment_variables": {
+        },
+        "conversation_variables": {
+        }
+    },
+    "dependencies": [
+    ]
+}
